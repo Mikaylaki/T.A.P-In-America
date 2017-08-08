@@ -70,11 +70,23 @@
 
     font-size:4rem;
 
+	    
     text-align:center;
 
     }
 
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color:red;
+    color: white;
+}
 
+.pagination a:hover:not(.active) {background-color: #ddd;}
    
 
 
@@ -97,6 +109,15 @@
 	<h2>In America </h2>
 
 	<h3>(Teens and Police In America) </h3>
+	
+	
+	<div class="pagination">
+  	<a href="https://mikaylaki.github.io/T.A.P-In-America/AboutUs.html">About Us</a>
+  	<a class="active" href="https://mikaylaki.github.io/T.A.P-In-America/homepage.html">Home Page</a>
+  	<a href="https://mikaylaki.github.io/T.A.P-In-America/map.html">Map</a>
+ 	 <a href="https://mikaylaki.github.io/T.A.P-In-America/game.html">Game</a>
+  	<a href="https://mikaylaki.github.io/T.A.P-In-America/datasummary.html">Data Summary</a>
+	</div>
 
 
 	</div>
